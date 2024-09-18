@@ -13,7 +13,14 @@ Features of the toolkit:
 - Provides scale flexibility with support for various run times: Python, Ray, Spark and KFP on Ray, targeting laptop-scale to datacenter-scale processing.
 - It provides [example data processing pipelines]([examples](https://github.com/IBM/data-prep-kit/tree/dev/examples/notebooks)) that can help you get started quickly. 
 - It provides the [Data processing library](data-processing-lib/ray) to enable contribution of new custom modules targeting new use cases without needing extensive Ray or Spark expertise.
-- It provides automation via kubeflow pipelines. 
+- It provides automation via kubeflow pipelines.
+
+We encourage the reader to visit the repository webpage for more details (https://github.com/IBM/data-prep-kit). Here you will find examples for
+
+| Recipe    | Notebook  |
+| -------- | ------- |
+| [End-2-end-code-data-prep-finetuning.ipynb]() |  A notebook that provides a sample data preparation pipeline, fetching a code dataset from HuggingFace and processing it with the following operators: Exact Deduplication, Fuzzy Deduplication, Programming Language Selection, Code Quality Annotations, Filtering, Semantic Ordering, and Tokenization. |
+| February | $80     |
 
 
 
